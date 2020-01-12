@@ -7,7 +7,17 @@ One of my year propouses is to help new devs to start in the industry, since I f
 In this tutorial I will show you an approach to build a full stack web application using React, NodeJS, PostgreSQL and Docker. The idea is to show you how you can use this tools to build your own projects.
 
 # What we are going to build?
-Since we are using a number of different tools I thought it was a good idea to keep the project simple because this is not a tutorial about react or about express or about postgres, my intention is to give you a picture of what you can achieve by combining this tools, so we are not going to go deep with each of them, and I am assuming you have some knowledge about this topics, anyway feel free to get in touch if you have any doubts about the stuff we are going to see ahead. So said that lets get into it and happy hacking folks!
+Since we are using a number of different tools I thought it was a good idea to keep the project simple because this is not a tutorial about react or about express or about postgres, my intention is to give you a picture of what you can achieve by combining this tools, so we are not going to go deep with each of them, and I am assuming you have some knowledge about this topics, anyway feel free to get in touch if you have any doubts about the stuff we are going to see ahead. 
+
+So for this tutorial we are going to build a small inventory system for stores. 
+
+The application will have only one view containing a table with the list of the products we have in our inventory and will allows us to create, edit and delete products as needed.
+
+And at the end should looks something like this:
+
+[TODO: INSERT IMAGE HERE]()
+
+So said that lets get into it and happy hacking folks!
 
 # What the heck is a full stack web applicartion?
 Ok I like to make this tutorials for those who are striving in their path to become a web developer, so if you already are a fullstack dev maybe you will find this not that useful, but if you are starting I think this could be a useful way to understand how to start.
@@ -75,7 +85,8 @@ To start your postgres service just run the following command:
 
 Then run `docker ps` to see your fresh and shinny postgres container, and thats it, now we have a databse  which we can access at `http://localhost:5432`.
 
-
+## Creating the db schema
+Now we have a postgres database in docker we need to create the schema for our application.
 
 # The API
 
